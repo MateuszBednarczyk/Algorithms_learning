@@ -1,7 +1,5 @@
 package algorithm;
 
-import java.util.Arrays;
-
 public class BubbleSort {
     public int[] Algorithm(int[] data) {
         for (int j = 0; j < data.length; j++) {
@@ -15,6 +13,7 @@ public class BubbleSort {
                 }
             }
         }
+
         return data;
     }
 }
