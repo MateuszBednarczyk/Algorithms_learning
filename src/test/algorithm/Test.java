@@ -8,10 +8,12 @@ public class Test {
 
     private final BubbleSortTest bubbleSortTest = new BubbleSortTest();
     private final SelectSortTest selectSortTest = new SelectSortTest();
+    private final InsertionSortTest insertionSortTest = new InsertionSortTest();
 
     public void runAllTests() {
         bubbleSortTest.BubbleSort();
         selectSortTest.SelectSort();
+        insertionSortTest.InsertionSort();
     }
 
     public static void checkTestStatus(Object wanted, Object got, String methodName, Type type) {
