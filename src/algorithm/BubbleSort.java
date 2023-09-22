@@ -11,6 +11,7 @@ public class BubbleSort {
 
                     data[i] = lower;
                     data[i + 1] = higher;
+
                     isElementSwapped = true;
                 } else {
                     isElementSwapped = false;
