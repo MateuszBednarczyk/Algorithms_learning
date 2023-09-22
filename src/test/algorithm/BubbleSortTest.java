@@ -13,7 +13,7 @@ public class BubbleSortTest {
     public void BubbleSort() {
         //given
         List<int[][]> tests = new ArrayList<>();
-        tests.add(new int[][]{{100, 99, 1, 8},{1, 8, 99, 100}});
+        tests.add(new int[][]{{100, 99, 1, 8}, {1, 8, 99, 100}});
         tests.add(new int[][]{{7, 10000, 2, 5, 91}, {2, 5, 7, 91, 10000}});
 
         //when

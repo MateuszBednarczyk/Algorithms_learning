@@ -17,6 +17,6 @@ public class SelectSort {
             data[minSlot] = temp;
         }
 
-       return data;
+        return data;
     }
 }
