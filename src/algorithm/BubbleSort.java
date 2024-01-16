@@ -4,7 +4,7 @@ public class BubbleSort {
     public int[] Algorithm(int[] data) {
         for (int j = 0; j < data.length; j++) {
             boolean isElementSwapped = true;
-            for (int i = 0; i < data.length - 1; i++) {
+            for (int i = 0; i < data.length - j - 1; i++) {
                 if (data[i] > data[i + 1]) {
                     int lower = data[i + 1];
                     int higher = data[i];
